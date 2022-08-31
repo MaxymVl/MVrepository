@@ -2,4 +2,4 @@
 line = str(input("Введите строку: "))
 line = line.replace("_", ' ').title()
 line = line.replace(' ', '' )
-print(line)
+print (line)
