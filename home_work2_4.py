@@ -11,5 +11,5 @@ d_death = datetime.datetime.strptime(dd, '%Y-%m-%d').date()
 age_d = (d_death-d_birth)
 age_day = int(age_d.days)
 age_year = age_d.days//365
-print(f'Name: {name}')
-print(f'Age: {age_year}')
+print (f'Name: {name}')
+print (f'Age: {age_year}')
