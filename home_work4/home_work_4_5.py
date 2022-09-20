@@ -4,11 +4,11 @@ number = int(input("Введите любое число: "))
 
 def sign_num(x):
 
-    if x>0:   #Leap year is a multiple of 4, but not a multiple of 100, or a multiple of 400
-        return ('Число положительное')
+    if x>0:  
+        return +1
     elif x<0:
-        return('Число отрицательное')
+        return -1
     else:
-        return('Число равно 0')
+        return 0
 
 print(sign_num(number)) 
