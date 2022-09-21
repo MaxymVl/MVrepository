@@ -7,6 +7,6 @@ def fibonacci(n):
         return (fibonacci(n-1) + fibonacci(n-2))
 n = int(input("Введите номер искомого элемента:"))
 print("Искомый элемент равен: ")
-for i in range(n):
-    result = list(range(n))
-print(fibonacci(i))
+#for i in range(n):
+    #result = list(range(n))
+print(fibonacci(n))
